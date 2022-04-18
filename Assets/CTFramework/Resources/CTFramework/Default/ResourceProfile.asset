@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isABLoad: 1
   isStreamingAssets: 1
-  localPath: StreamingAssets/AssetBundle
+  localPath: AssetBundle
   mainABName: PC
   isNetUpdate: 1
   abVersionList: versionList.json
