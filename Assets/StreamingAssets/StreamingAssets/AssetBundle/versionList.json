@@ -1,0 +1,28 @@
+{
+    "updateList": [
+        {
+            "fileName": "art.ct",
+            "md5": "094875c2bc31073ed4fb4bc542a6ace2"
+        },
+        {
+            "fileName": "art.ct.manifest",
+            "md5": "dbbf029d47b6f8f6a87efc162a671219"
+        },
+        {
+            "fileName": "model.ct",
+            "md5": "d164675cf6033166ff7a695df1a40cc9"
+        },
+        {
+            "fileName": "model.ct.manifest",
+            "md5": "e748b7b9950ec382e1fe8d6227799146"
+        },
+        {
+            "fileName": "PC",
+            "md5": "50eebac947cc5716f1c4b3528d559200"
+        },
+        {
+            "fileName": "PC.manifest",
+            "md5": "5b727498122b33d12608a1fa7106acfa"
+        }
+    ]
+}

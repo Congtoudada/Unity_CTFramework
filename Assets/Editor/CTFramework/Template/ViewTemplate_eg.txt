@@ -1,0 +1,47 @@
+/****************************************************
+  文件：#SCRIPTNAME#.cs
+  作者：#Author#
+  邮箱：#Email#
+  日期：#DateTime#
+  功能：#Info#
+*****************************************************/
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using CT;
+using CT.UISys;
+
+public class #SCRIPTNAME# : ViewComponent
+{
+	#region 字段声明
+	public const string PANEL_NAME = "#ClassName#"; //面板名称
+#ConstantKey#
+    //声明UI组件
+	//public Text text;
+#DeclaredUI#
+	#endregion
+
+	#region UI绑定
+	//时机：整个生命周期仅初始化时执行一次
+    //任务：查找组件 + 设置全局Key-Values + 绑定监听
+    public override void OnInit()
+    {
+        base.OnInit();
+#FindUI#
+        //示例：绑定监听
+        //controller.AddStringAfterListener("title", v => title.text = v); //绑定Text的监听
+	}
+	
+	//时机：面板每次Push时执行(整个生命周期可多次)
+	//任务：完成数据初始化工作
+	public override void OnEnter(object obj)
+	{
+	    //示例：设置普通Key-Value(如果之前添加了监听，这里修改值时要关闭触发器)
+        //controller.SetString("title", "标题", false).isTrigger = true;
+        
+		controller.InvokeAll(); //渲染所有数据(最后调用)
+	}
+	#endregion
+	
+}

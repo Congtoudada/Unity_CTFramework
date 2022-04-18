@@ -1,0 +1,38 @@
+{
+    "m_keys": [
+        "version",
+        "UIAutoScriptEditor_keyValues",
+        "UIAutoScriptEditor_scriptPath",
+        "UIAutoScriptEditor_isPure",
+        "UIAutoScriptEditor_withExample",
+        "UIAutoScriptEditor_profileDir",
+        "UIAutoScriptEditor_isCache",
+        "UIAutoScriptEditor_isAssetBundle",
+        "UIAutoScriptEditor_resourcesDir",
+        "UIAutoScriptEditor_abName",
+        "UIAutoScriptEditor_isConstKey",
+        "UIAutoScriptEditor_author",
+        "UIAutoScriptEditor_email",
+        "UIAutoScriptEditor_description",
+        "UIAutoScriptEditor_isUpperKey",
+        "UIAutoScriptEditor_isPreLoad"
+    ],
+    "m_values": [
+        "v1.0",
+        "[{\"type\":0,\"key\":\"Name\",\"value\":\"聪头\",\"isFirstInvoke\":true,\"info\":\"无\"},{\"type\":0,\"key\":\"Image\",\"value\":\"CTFramework/Example/UISys\",\"isFirstInvoke\":true,\"info\":\"无\"}]",
+        "Assets/CTFramework/Examples/2.UISystem/案例3/Res",
+        "False",
+        "True",
+        "Assets/CTFramework/Resources/CTFramework/Example/UISys",
+        "True",
+        "False",
+        "CTFramework/Example/UISys",
+        "",
+        "True",
+        "聪头",
+        "1322080797@qq.com",
+        "",
+        "False",
+        "False"
+    ]
+}

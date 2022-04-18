@@ -1,0 +1,8 @@
+namespace CT
+{
+	//AuGroup Key的枚举
+	public partial class AuGroupKeyEnum
+	{
+	#Content#
+	}
+}

@@ -1,0 +1,37 @@
+/****************************************************
+  文件：#SCRIPTNAME#.cs
+  作者：#Author#
+  邮箱：#Email#
+  日期：#DateTime#
+  功能：#Info#
+*****************************************************/
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using CT;
+using CT.UISys;
+
+public class #SCRIPTNAME# : ViewComponent
+{
+	#region 字段声明
+	public const string PANEL_NAME = "#ClassName#"; //面板名称
+#ConstantKey#
+    //声明UI组件
+#DeclaredUI#
+	#endregion
+
+	#region UI绑定
+    public override void OnInit()
+    {
+        base.OnInit();
+#FindUI#
+	}
+	
+	public override void OnEnter(object obj)
+	{
+		controller.InvokeAll(); //渲染所有数据(最后调用)
+	}
+	#endregion
+	
+}
